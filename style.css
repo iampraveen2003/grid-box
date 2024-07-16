@@ -1,0 +1,108 @@
+header img{
+    border-radius: 25px;
+}
+header h1{
+    font-size: 25px;
+    margin-top: 14px;
+}
+header{
+    text-align: center;
+}
+header p{
+    margin-top: 10px;
+}
+.top-box{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 20px;
+    border-radius: 30px;
+    text-align: center;
+}
+.box-1{
+width: 70px;
+height:50px;
+background-color: aqua;
+border-radius: 5px;
+
+
+}
+.box-2{
+width: 70px;
+height:50px;
+background-color: aqua;
+border-radius: 5px;
+}
+.box-3{
+width: 70px;
+height:50px;
+background-color: aqua;
+border-radius: 5px;
+}
+
+
+
+
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    height:160vh;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 18px;
+    margin-top: 50px;
+    border-radius: 20px;
+    
+    
+}
+.photos{
+    background-position: center;
+    background-size: cover;  
+}
+#photos1{
+background-image: url(photo1.png);
+
+}
+#photos2{
+background-image: url(photo2.png);
+grid-column: 2/4;
+
+}
+#photos3{
+    background-image: url(photo3.png);
+    grid-column: 1/3;   
+
+}
+#photos4{
+    background-image: url(photo_4.png);
+    grid-row: span 2;
+}
+#photos5{
+background-image: url(photo5.png);
+}
+#photos6{
+background-image: url(photo6.png);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
